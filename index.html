@@ -110,7 +110,7 @@
     <h1 class="font-bold text-4xl mb-5">The Legal Practice Area</h1>
     <p class="text-gray-300">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
     <!-- area container -->
-     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  my-16 px-3">
+     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  my-16 ">
       <!-- card-1 -->
       <div class="card bg-base-100 border border-black  rounded-none ">
         <figure class="px-10 pt-10">
@@ -211,38 +211,77 @@
      </div>
    </section>
    <!-- What Our Client Say -->
-    <section class="my-24 md:w-12/12 mx-auto text-center">
+    <section class="my-24 md:w-11/12 mx-auto text-center">
       <h1 class="font-bold text-4xl mb-5">What Our Client Say</h1>
       <p class="text-gray-300">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
         <!-- carousel -->
-         <section class="md-12/12 mx-auto relative">
-        <div class=" mt-6 bg-[url('images/slider-1.jpg')]  bg-no-repeat bg-cover h-[450px]">
-          <div class="avatar pt-5 md:pt-14">
-            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+        <div class="carousel w-full mt-10">
+          <div id="slide1" class="carousel-item  bg-[url('images/slider-1.jpg')]  bg-no-repeat bg-cover h-[500px] relative w-full items-center flex-col-reverse">
+            <div class="avatar order-2 pt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            
+            </div>
+            <div class="card-body items-center order-1 text-center">
+              <h2 class="card-title text-white">Awlad Hossain</h2>
+              <h3 class="text-white md:pb-20">UIX Designer</h3>
+              <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-        </figure>
-        <div class="card-body items-center text-center">
-          <h2 class="card-title text-white">Awlad Hossain</h2>
-          <h3 class="text-white md:pb-20">UIX Designer</h3>
-          <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-          </div>
-        </div>
-      </div>
+          <div id="slide2" class="carousel-item bg-[url('images/slider-2.jpg')]  bg-no-repeat bg-cover h-[500px]  items-center flex-col-reverse relative w-full">
 
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide4" class="btn btn-circle">❮</a> 
-        <a href="#slide2" class="btn btn-circle">❯</a>
-      </div>
+            <div class="avatar order-2 pt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            
+            </div>
+            <div class="card-body items-center order-1 text-center">
+              <h2 class="card-title text-white">Awlad Hossain</h2>
+              <h3 class="text-white md:pb-20">UIX Designer</h3>
+              <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+
+    
+            
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item bg-[url('images/slider-3.jpg')]  bg-no-repeat bg-cover h-[500px]  items-center flex-col-reverse relative w-full">
+            
+            <div class="avatar order-2 pt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            
+            </div>
+            <div class="card-body items-center order-1 text-center">
+              <h2 class="card-title text-white">Awlad Hossain</h2>
+              <h3 class="text-white  md:pb-20">UIX Designer</h3>
+              <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+    
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          
         </div>
-      </section>
     </section>
     <!-- Frequently Asked Any Questions -->
      <section class="my-24 md:w-11/12 mx-auto text-center">
       <h1 class="font-bold text-4xl mb-5"> Frequently Asked Any Questions </h1>
       <p class="text-gray-300">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap=4 px-2 items-center my-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap=4  items-center my-10">
         <!-- question -->
          <div>
           <div class="collapse collapse-plus border border-blue-100">
@@ -373,7 +412,7 @@
           </div>
       </section>
 </main>
-<footer class="footer w-full bg-[#111111] text-base-content md:p-10 p-3">
+<footer class="footer w-full bg-[#111111] text-base-content md:p-10 p-4 ">
   <nav>
    <a href=""><img class="mb-4" src="./images/logo2.png" alt=""> </a>
    <p class="text-white">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
@@ -398,8 +437,8 @@
   <form>
     <h1 class="text-white font-bold text-3xl">Subscribe</h1>
     <p class="text-white">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
-    <fieldset class="form-control w-50 md:w-80">
-      <label class="label">
+    <fieldset class="form-control md:w-80  ">
+      <label class="label  w-50">
         <span class="label-text text-white">Enter your email address</span>
       </label>
       <div class="join">
